@@ -1,0 +1,249 @@
+body {
+    background-color: #fff;
+
+    .container {
+        background: #fff;
+
+        nav .navbar-brand {
+            color: black;
+            font-weight: 400;
+            font-size: 24px;
+            font-family: 'Secular One', sans-serif;
+
+        }
+
+        nav button {
+            border: none;
+
+            span {
+                font-size: 16px;
+            }
+        }
+        .row .col-md-6{
+            padding-right: 0px;
+
+            img{
+                width: 100%;
+                height: 600px;
+            }
+        }
+        .row .text {
+            border: 1px solid #cccccc3d;
+            outline: 1px solid #cccccc3d;
+            outline-offset: -5px;
+            height: 500px;
+            margin-top: 100px;
+            padding-right: 0;
+                }
+        .row .col-md-6 .card {
+            border: none;
+            margin-top: 100px;
+
+            h3 {
+                font-weight: 800;
+                // color: #1c1010ad;
+                color: #212529;
+            }
+
+            p {
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 400;
+                color: #9b9999;
+            }
+        }
+
+        // section 
+
+        section {
+            position: relative;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-top: 50px;
+
+            h1 {
+                font-size: 110px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                color: #f1f1f1;
+                font-family: 'Secular One', sans-serif;
+
+            }
+
+            .about-text {
+                position: absolute;
+                top: 45px;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                left: 44%;
+
+                h3 {
+                    font-family: 'Secular One', sans-serif;
+                    font-weight: 700;
+                }
+            }
+
+            .about-content {
+                margin-top: 20px;
+                padding: 26px;
+
+                p {
+                    color: #b7b7b7;
+                    padding: 1rem;
+                }
+                .btn-arrow{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                    i{
+                        padding-top: 19px;
+                        cursor: pointer;
+                    }
+                }
+
+                button {
+                    margin-top: 16px;
+                    background: none;
+                    border: none;
+                    font-size: 16px;
+                    font-weight: 500;
+                    padding: 10px;
+                    border-radius: 8px;
+                    cursor: pointer;
+                    // &:hover{
+                    //     background:black;
+                    //     color: #fff;    
+                    //     transition: 0.3s;
+                    // }
+                }
+            }
+
+        }
+
+        //after-navbar
+
+        .after-about .nav-item{
+            // padding-right: 30px;
+            padding: 10px 10px 10px 10px;
+            margin-left: 20px;
+            font-size: 14px;
+            border-radius: 8px;
+            font-weight: 700;
+            &:hover{
+                background:black;
+                color: #fff;    
+                transition: 0.3s;
+            }
+        }
+        .after-about .imgs{
+            display: grid;
+            margin-top: 30px;
+
+            .first-img img{
+                width: 100%;
+            }
+            .sec-img img{
+                width: 50%;
+            }
+            .third-img img{
+                width: 50%;
+            }
+            .forth-img img{
+                width: 50%;
+            }
+        }
+        // .after-about .first-img img{
+        //     width: 100%;
+        //     padding-bottom: 25px;
+        // }
+        // .after-about .sec-img img{
+        //     // width: 50%;
+        // }
+
+        .before-footer{
+            display: flex;
+            width: 100%;
+            
+            .first,.sec,.third,.forth{
+                padding-right: 12px;
+                
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .footer{
+        width: 100%;
+        height: 290px;
+        background: #343434;
+
+        .up-footer{
+            height: 50%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            border-bottom: 1px solid #ffffff1c;
+
+            .icon-div{
+                padding-top: 60px;
+
+                i{
+                    padding: 0 10px 0 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+
+        .down-footer{
+            display: flex;
+            justify-content: space-between;
+            color: #fff;
+
+            .copyright p{
+                font-size: 12px;
+                text-align: center;
+                padding-top: 68px;
+                font-family: 'Montserrat', sans-serif;
+
+            }
+            .contact{
+                display: flex;
+
+                .phone{
+                    display: flex;
+                    font-size: 12px;
+                    font-family: 'Montserrat', sans-serif;
+                    text-align: center;
+                    padding-top: 68px;
+
+                    .call-a{
+                        color: #9b9a9a;
+                        font-weight: 500;
+                    }
+                }
+                .email{
+                    display: flex;
+                    font-size: 12px;
+                    text-align: center;
+                    padding-top: 68px;
+                    font-family: 'Montserrat', sans-serif;
+
+                    .email-a{
+                        color: #9b9a9a;
+                        font-weight: 500;
+                        font-family: 'Montserrat', sans-serif;
+
+                    }
+                }
+            }
+        }
+    }
+}
