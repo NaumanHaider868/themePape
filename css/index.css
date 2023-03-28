@@ -135,6 +135,9 @@ body {
         @media (max-width: 992px) {
           body .container section .about-text {
             left: 38%; } }
+        @media (max-width: 1200px) {
+          body .container section .about-text {
+            left: 42.5%; } }
         body .container section .about-text h3 {
           font-family: 'Secular One', sans-serif;
           font-weight: 700; }
@@ -224,10 +227,7 @@ body {
       color: #fff;
       border-bottom: 1px solid #ffffff1c; }
       body .footer .up-footer .icon-div {
-        padding-top: 60px; }
-        @media (max-width: 500px) {
-          body .footer .up-footer .icon-div {
-            padding: 40px; } }
+        padding: 40px; }
         body .footer .up-footer .icon-div i {
           padding: 0 10px 0 10px;
           cursor: pointer; }

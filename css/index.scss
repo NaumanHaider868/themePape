@@ -223,6 +223,10 @@ body {
                     left: 38%;
                 }
 
+                @media (max-width: 1200px) {
+                    left: 42.5%;
+                }
+
                 
 
                 h3 {
@@ -386,11 +390,9 @@ body {
             border-bottom: 1px solid #ffffff1c;
 
             .icon-div {
-                padding-top: 60px;
+                padding: 40px;
 
-                @media (max-width: 500px) {
-                    padding: 40px;
-                }
+                
 
                 i {
                     padding: 0 10px 0 10px;
