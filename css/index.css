@@ -99,12 +99,15 @@ body {
           height: 200px; } }
       body .container .row .col-md-6 .card h3 {
         font-weight: 800;
-        color: #212529; }
+        color: #3e3e3ef0;
+        font-size: 35px;
+        padding-left: 38px; }
       body .container .row .col-md-6 .card p {
         text-transform: uppercase;
         font-size: 12px;
-        font-weight: 400;
-        color: #9b9999; }
+        font-weight: 600;
+        color: #9b9999;
+        padding-left: 38px; }
     body .container section {
       position: relative;
       width: 100%;
@@ -112,20 +115,23 @@ body {
       align-items: center;
       text-align: center;
       margin-top: 50px; }
+      body .container section span {
+        font-weight: 400; }
       body .container section h1 {
-        font-size: 110px;
+        font-size: 138px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        color: #f1f1f1;
+        color: #f7f7f7;
         font-family: 'Secular One', sans-serif; }
       body .container section .about-text {
+        display: flex;
         position: absolute;
-        top: 45px;
+        top: 56px;
         justify-content: center;
         align-items: center;
         text-align: center;
-        left: 43%; }
+        left: 34%; }
         @media (max-width: 500px) {
           body .container section .about-text {
             left: 30%; } }
@@ -140,13 +146,22 @@ body {
             left: 42.5%; } }
         body .container section .about-text h3 {
           font-family: 'Secular One', sans-serif;
-          font-weight: 700; }
+          font-weight: 700;
+          color: #3e3e3e;
+          padding: 0 23px 0 23px;
+          font-size: 37px; }
+        body .container section .about-text .border-1, body .container section .about-text .border-2 {
+          content: '';
+          border: 2px solid black;
+          width: 68px;
+          margin-bottom: 10px; }
       body .container section .about-content {
         margin-top: 20px;
         padding: 26px; }
         body .container section .about-content p {
-          color: #b7b7b7;
-          padding: 1rem; }
+          color: #999999;
+          padding: 1rem;
+          line-height: 1.9rem; }
         body .container section .about-content .btn-arrow {
           display: flex;
           justify-content: center;
@@ -164,35 +179,53 @@ body {
           padding: 10px;
           border-radius: 8px;
           cursor: pointer; }
-    body .container .after-about .nav-item {
-      padding: 10px 10px 10px 10px;
-      margin-left: 20px;
-      font-size: 14px;
-      border-radius: 8px;
-      font-weight: 700; }
-      body .container .after-about .nav-item:hover {
-        background: black;
-        color: #fff;
-        transition: 0.3s; }
+    body .container .after-about .nav-tabs {
+      border-bottom: none; }
+      body .container .after-about .nav-tabs .active {
+        border: none; }
+      body .container .after-about .nav-tabs .nav-link {
+        color: #999999;
+        font-size: 15px;
+        font-weight: 500; }
+      body .container .after-about .nav-tabs .nav-item .nav-link a {
+        text-align: center; }
+      body .container .after-about .nav-tabs .nav-item:hover {
+        border: none;
+        background: #3e3e3e;
+        transition: 0.1s;
+        border-radius: 8px; }
+        body .container .after-about .nav-tabs .nav-item:hover .nav-link {
+          border: none;
+          color: #fff;
+          margin-right: 2px; }
     body .container .after-about .imgs {
-      margin-top: 30px;
       width: 100%; }
       body .container .after-about .imgs .row .two-div {
         padding: 0px; }
       body .container .after-about .imgs img {
-        padding: 10px; }
+        padding-top: 28px; }
       body .container .after-about .imgs .first-img {
         width: 100%; }
       body .container .after-about .imgs .sec-img {
         width: 100%; }
       body .container .after-about .imgs .third-img {
         width: 100%; }
+      body .container .after-about .imgs .four-div {
+        padding-left: 24px;
+        padding-right: -1px; }
+      body .container .after-about .imgs .fifth-div {
+        padding-left: 14px;
+        padding-right: 30px; }
       body .container .after-about .imgs .forth-img {
         width: 100%; }
     body .container .before-footer {
-      display: flex;
-      width: 100%;
-      margin-bottom: 20px; }
+      width: 100%; }
+      body .container .before-footer .row {
+        margin-left: -20px;
+        margin-right: -14px;
+        margin-bottom: 20px; }
+      body .container .before-footer img {
+        width: 100%; }
       body .container .before-footer .first,
       body .container .before-footer .sec,
       body .container .before-footer .third,
@@ -225,20 +258,24 @@ body {
       align-items: center;
       text-align: center;
       color: #fff;
-      border-bottom: 1px solid #ffffff1c; }
-      body .footer .up-footer .icon-div {
-        padding: 40px; }
-        body .footer .up-footer .icon-div i {
-          padding: 0 10px 0 10px;
-          cursor: pointer; }
+      border-bottom: 1px solid #ffffff1c;
+      padding-top: 52px;
+      padding-bottom: 52px; }
+      body .footer .up-footer .icon-div i {
+        padding: 0 10px 0 10px;
+        cursor: pointer; }
     body .footer .down-footer {
       display: flex;
       justify-content: space-between;
-      color: #fff; }
+      color: #fff;
+      padding-top: 52px;
+      padding-bottom: 52px; }
+      body .footer .down-footer p {
+        margin-top: 0;
+        margin-bottom: 0; }
       body .footer .down-footer .copyright p {
         font-size: 12px;
         text-align: center;
-        padding-top: 68px;
         font-family: 'Montserrat', sans-serif; }
       body .footer .down-footer .contact {
         display: flex; }
@@ -246,8 +283,7 @@ body {
           display: flex;
           font-size: 12px;
           font-family: 'Montserrat', sans-serif;
-          text-align: center;
-          padding-top: 68px; }
+          text-align: center; }
           @media (max-screen: 500px) {
             body .footer .down-footer .contact .phone {
               display: inline;
@@ -262,7 +298,6 @@ body {
           display: flex;
           font-size: 12px;
           text-align: center;
-          padding-top: 68px;
           font-family: 'Montserrat', sans-serif; }
           body .footer .down-footer .contact .email .email-a {
             color: #9b9a9a;
