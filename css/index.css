@@ -152,7 +152,7 @@ body {
           font-size: 37px; }
         body .container section .about-text .border-1, body .container section .about-text .border-2 {
           content: '';
-          border: 2px solid black;
+          border: 2px solid #3e3e3e;
           width: 68px;
           margin-bottom: 10px; }
       body .container section .about-content {
