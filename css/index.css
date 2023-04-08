@@ -54,14 +54,16 @@ body {
             transition: 0.4; }
     body .container nav .navbar-brand {
       color: black;
-      font-weight: 400;
-      font-size: 24px;
-      font-family: 'Secular One', sans-serif; }
+      font-weight: 500;
+      font-size: 26px;
+      font-family: 'Quicksand', sans-serif; }
     body .container nav button {
       border: none;
       outline: none; }
       body .container nav button span {
         font-size: 16px; }
+    body .container .card-body {
+      margin-top: -20px; }
     body .container .card-body .row .col-md-6 {
       padding-right: 0px;
       padding-left: 0; }
@@ -135,7 +137,7 @@ body {
       justify-content: center;
       align-items: center;
       text-align: center;
-      margin-top: 85px; }
+      margin-top: 94px; }
       body .container section span {
         font-weight: 400; }
       body .container section h1 {
@@ -166,8 +168,8 @@ body {
           body .container section .about-text {
             left: 12.5%; } }
         body .container section .about-text h3 {
-          font-family: 'Secular One', sans-serif;
-          font-weight: 700;
+          font-family: 'Prompt', sans-serif;
+          font-weight: 800;
           color: #3e3e3e;
           padding: 0 23px 0 23px;
           font-size: 37px; }
@@ -177,38 +179,37 @@ body {
           border: 2px solid #3e3e3e;
           width: 68px;
           margin-bottom: 10px; }
-      body .container section .about-content {
-        margin-top: 20px;
-        padding: 26px; }
-        body .container section .about-content p {
-          color: #999999;
-          padding: 1rem;
-          line-height: 1.9rem; }
-        body .container section .about-content .btn-arrow {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          text-align: center; }
-          body .container section .about-content .btn-arrow i {
-            padding-top: 19px;
-            cursor: pointer; }
-        body .container section .about-content button {
-          margin-top: 16px;
-          background: none;
-          border: none;
-          font-size: 16px;
-          font-weight: 500;
-          padding: 10px;
-          border-radius: 8px;
+      body .container section .about-content .content-text {
+        width: 75%;
+        margin: auto; }
+      body .container section .about-content p {
+        color: #999999;
+        padding: 1rem;
+        line-height: 1.9rem; }
+      body .container section .about-content .btn-arrow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+        body .container section .about-content .btn-arrow i {
+          font-size: 13px;
+          padding-top: 4px;
           cursor: pointer; }
+      body .container section .about-content button {
+        background: none;
+        border: none;
+        font-size: 16px;
+        font-weight: 500;
+        border-radius: 8px;
+        cursor: pointer; }
     body .container .after-about .nav-tabs {
       border-bottom: none; }
       body .container .after-about .nav-tabs .active {
         border: none; }
       body .container .after-about .nav-tabs .nav-link {
-        color: #999999;
-        font-size: 15px;
-        font-weight: 500; }
+        color: #919191;
+        font-size: 12px;
+        font-weight: 700; }
         @media (max-width: 992px) {
           body .container .after-about .nav-tabs .nav-link {
             font-size: 13.5px; } }
@@ -232,7 +233,8 @@ body {
           cursor: pointer; }
     body .container .after-about .imgs {
       width: 100%;
-      height: 100%; }
+      height: 100%;
+      margin-top: 35px; }
       @media (max-width: 550px) {
         body .container .after-about .imgs .row {
           margin-left: 0;
@@ -282,7 +284,9 @@ body {
       body .container .after-about .imgs .forth-img {
         width: 100%; }
     body .container .before-footer {
-      width: 100%; }
+      width: 100%;
+      margin-top: 130px;
+      margin-bottom: 90px; }
       body .container .before-footer .col-md-3 {
         margin-top: 10px; }
       body .container .before-footer .row {
@@ -336,8 +340,9 @@ body {
     body .footer .down-footer {
       display: flex;
       justify-content: space-between;
+      align-content: center;
       color: #fff;
-      padding-top: 52px;
+      padding-top: 54px;
       padding-bottom: 52px; }
       @media (max-width: 550px) {
         body .footer .down-footer {
@@ -347,10 +352,12 @@ body {
         margin-top: 0;
         margin-bottom: 0; }
       body .footer .down-footer .copyright p {
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
         font-family: 'Montserrat', sans-serif;
-        padding-right: 66px; }
+        padding-right: 135px;
+        color: #dfdfdf;
+        font-weight: 600; }
         @media (max-width: 992px) {
           body .footer .down-footer .copyright p {
             padding-right: 0px; } }
@@ -361,10 +368,12 @@ body {
         display: flex; }
         body .footer .down-footer .contact .phone {
           display: flex;
-          font-size: 12px;
+          font-size: 10px;
           font-family: 'Montserrat', sans-serif;
           text-align: center;
-          padding-left: 194px; }
+          font-weight: 600;
+          color: #dfdfdf;
+          padding-left: 240px; }
           @media (max-width: 992px) {
             body .footer .down-footer .contact .phone {
               padding-left: 0px; } }
@@ -378,10 +387,14 @@ body {
               padding-bottom: 30px; } }
           body .footer .down-footer .contact .phone .call-a {
             color: #9b9a9a;
-            font-weight: 500; }
-          @media (max-width: 550px) {
-            body .footer .down-footer .contact .phone .number-a {
-              margin: 0s; } }
+            font-weight: 600; }
+          body .footer .down-footer .contact .phone .number-a {
+            color: #dfdfdf;
+            font-weight: 600;
+            font-size: 10px; }
+            @media (max-width: 550px) {
+              body .footer .down-footer .contact .phone .number-a {
+                margin: 0s; } }
         body .footer .down-footer .contact .email {
           display: flex;
           font-size: 12px;
@@ -389,7 +402,12 @@ body {
           font-family: 'Montserrat', sans-serif; }
           body .footer .down-footer .contact .email .email-a {
             color: #9b9a9a;
-            font-weight: 500;
+            font-weight: 600;
             font-family: 'Montserrat', sans-serif; }
+          body .footer .down-footer .contact .email .email-b {
+            color: #dfdfdf;
+            font-weight: 600;
+            font-size: 10.5px;
+            padding-top: 1px; }
 
 /*# sourceMappingURL=index.css.map */
